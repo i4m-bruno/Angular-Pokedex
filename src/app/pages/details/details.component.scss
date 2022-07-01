@@ -58,7 +58,7 @@
 
         background: var(--branco);
 
-        min-height: 43.9vh;
+        // min-height: 43.9vh;
         margin-top: rem-calc(10);
 
         padding: rem-calc(110) rem-calc(35) rem-calc(30);
@@ -74,10 +74,14 @@
         }
 
         ol {
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          margin: 2rem 0 2rem 0;
           li {
             display: flex;
             justify-content: space-between;
-
+            color: #000;
             font-size: rem-calc(18);
             line-height: 130%;
           }
