@@ -3,7 +3,7 @@
   <ng-template ngFor let-pokemon [ngForOf]="pokemonsList">
     <a
       [routerLink]="['details', pokemon.status.id]"
-      class="pokemon"
+      class="pokemon fadeIn"
       *ngIf="pokemon.status"
     >
       <section class="pokemon__status">
